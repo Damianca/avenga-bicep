@@ -1,5 +1,5 @@
 ````markdown
-# 💻 Configuración y Despliegue en Azure CLI
+# Configuración y Despliegue en Azure CLI
 
 Este es el flujo estándar para realizar un despliegue de Bicep a nivel de suscripción, típicamente utilizado para crear un Resource Group (RG).
 
@@ -7,8 +7,8 @@ Este es el flujo estándar para realizar un despliegue de Bicep a nivel de suscr
 
 Este comando asegura que cualquier comando subsiguiente de Azure CLI se ejecute contra la suscripción correcta.
 
-```bash
-az account set --subscription "7e7e194d-45b8-4739-afb4-0140968f5a7a"
+```
+az account set --subscription "TU NRO AQUI"
 ````
 
 -----
