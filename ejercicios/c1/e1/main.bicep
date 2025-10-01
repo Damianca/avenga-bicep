@@ -1,10 +1,10 @@
-// Set the target scope to subscription explicitly (Good practice when creating RGs)
+// Establecemos la subs
 targetScope = 'subscription'
 
-// Define the parameters for the Resource Group
+// Le ponemos nombre al grupo de recursos
 param resourceGroupName string = 'rg-bicep-demo-001'
 
-// Remove the default value. The location will be provided by the CLI parameter.
+// Ubicación US east
 param resourceGroupLocation string = 'eastus'
 
 param tags object = {}
