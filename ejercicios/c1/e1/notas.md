@@ -21,5 +21,8 @@ Este comando ejecuta el archivo Bicep (`main.bicep`) con alcance en la suscripci
 az deployment sub create --location "eastus" --template-file main.bicep
 ```
 
-```
+-----
+## 3\. Eliminar el resource group
+```bash
+az group delete --name "rg-bicep-demo-001" --yes
 ```
