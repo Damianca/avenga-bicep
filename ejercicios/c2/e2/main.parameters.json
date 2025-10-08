@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminLogin": {
+      "value": "sqlAdminUser"
+    },
+    "adminPassword": {
+      // ESTE VALOR ES CRUCIAL: Debe ser una contraseña segura y compleja (12+ caracteres, mayúsculas, minúsculas, números, símbolos)
+      "value": "Su_Contraseña_Segura_2025!" 
+    },
+    "clientIpAddress": {
+      "value": "181.91.214.172"
+    }
+  }
+}
